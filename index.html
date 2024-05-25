@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imegi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Text and Visual Element Separator</h1>
+    <input type="file" id="image-input" accept="image/*">
+    <button id="process-button">Process Image</button>
+    <div id="output">
+        <h2>Extracted Text</h2>
+        <pre id="extracted-text"></pre>
+        <h2>Visual Elements</h2>
+        <canvas id="visual-canvas"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
